@@ -1,0 +1,93 @@
+html,
+body {
+  background-color: #f7f7f7;
+  height: 100%;
+}
+header {
+  display: block;
+  width: 100%;
+  background-color: #013750;
+  box-shadow: 2px 2px 2px grey;
+  height: 60px;
+  text-align: center;
+  box-shadow: 0 0 1em;
+  position: relative;
+  z-index: 2;
+}
+main {
+  height: 100%;
+}
+.profile {
+  float: right;
+  margin: 18px;
+  font-size: 25px;
+  color: white;
+}
+.containerIcons {
+  width: 15%;
+  position: relative;
+  float: left;
+  background-color: white;
+  height: 100%;
+}
+.containerContact {
+  width: 85%;
+  float: left;
+  margin: 20;
+}
+.inputSearch {
+  margin-top: 14px;
+  width: 700px;
+  border-radius: 20px;
+  outline: 0;
+  border: 1px solid;
+}
+.imagePeople {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.iconPage {
+  margin-top: 20px;
+  padding-right: 10px;
+  width: 20px;
+  margin-bottom: 30px;
+}
+.buttonIcon {
+  background-color: transparent;
+  border: none;
+  font-size: 0.8rem;
+  color: grey;
+}
+.image {
+  width: 100px;
+  margin: 5px;
+  float: left;
+}
+ul li {
+  list-style: none;
+}
+.table {
+  width: 90%;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 0 0 1em grey;
+  color: grey;
+  font-size: 0.9rem;
+  margin-top: 50px;
+}
+.buttonTable {
+  background-color: red;
+}
+.lupa {
+  background-image: url("./lupa.svg");
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  background-position: 10px;
+}
+.containerMain {
+  padding-left: 0;
+}
+.table > :not(caption) > * > * {
+  padding: 0.5rem 1.5rem;
+}
